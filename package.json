@@ -4,7 +4,11 @@
   "description": "A Node.js server that receives webhook data from Roblox games and forwards it to Discord",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["roblox", "discord", "webhook", "proxy"],
   "author": "",
